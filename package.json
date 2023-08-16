@@ -1,5 +1,6 @@
 {
-  "name": "react-javascript",
+    "homepage": "https://BadgujarM.github.io/TodoApp",
+	"name": "react-javascript",
   "version": "1.0.0",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
