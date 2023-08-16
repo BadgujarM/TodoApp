@@ -63,7 +63,7 @@ export default function App() {
         {isGet ? <GetTodo addTodo = {addTodo}/> : (
           <>
             <h1 className="my-3">Todo List</h1><div className="scroll">
-            {todos.length === 0 ? <h3>No Task to Show Here</h3> :
+            {todos.length === 0 ? <h3>No Task to Show Here. Add Some</h3> :
               todos.map((todo) => (
                 <Todo todo={todo} key={todo.sno} Delete={Delete} />
               ))}
